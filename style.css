@@ -1,0 +1,140 @@
+/*ResEt*/
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+/*Les classes fonctionnelles flex*/
+
+.flex {
+display:flex;}
+
+.space-between {
+justify-content:space-between ;} 
+
+.space-around{ justify-content:space-around;}
+
+.space-evenly{justify-content:space-evenly;}
+
+.justify-center {
+justify-content:center;}
+
+.flex-end{justify-content:flex-end;}
+
+.flex-start{justify-content:flex-start;}
+
+
+/*alignement verticale*/
+
+.align-items{align-items:center;}
+
+.align-end{align-items:end;}
+
+.gap-12{gap:12px;}
+
+.gap-20{
+    gap: 20px;
+}
+
+.gap-200{
+    gap:200px
+}
+
+/*Les classes de largeur*/
+
+.w-100{
+    width:100%;
+}
+.w-48{
+    width: 48%;
+}
+.w-33{
+    width: 33%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+
+/*Mes classes*/
+
+.container-1000 {
+max-width: 1000px;
+margin: auto;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.padding-top-60{
+padding-top: 60px;
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.padding{
+    padding: 40px;
+}
+
+/*JE M'ADRESSE A TOUS*/
+
+ul li {list-style: none;}
+
+
+h1,h2{
+     font-family: "Kalnia", serif;
+}
+
+
+/*HEADER*/
+
+header{
+    display:flex;
+    align-items: flex-start;
+justify-content: space-between;
+} 
+
+/*SECTION HERO*/
+
+.bg {background-image: url(asset-photographe/image\ 8.png);
+height:100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;}
+
+.txt-white{ 
+    color: white;
+}
+
+/*SECTION 1*/
+
+/*SECTION 2*/
+
+/*SECTION 3*/
+/*SECTION 4*/
+/*FOOTER*/
